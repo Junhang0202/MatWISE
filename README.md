@@ -33,14 +33,15 @@ To run MatWISE, you can setup a conda environment.
 
 Please note that all of our code has been tested on Linux system and in future versions, we will be adding support for Windows systems.
 
-### Conda
+### Install the requirements
 Create the environment and install dependencies.
+```
+conda env create -f environment.yml
+```
+or
 ```
 conda create -n MatWISE python=3.11.3
 conda activate MatWISE
-```
-### Install the requirements
-```
 pip install -r requirements.txt
 ```
 ## Running a Sample_demo
