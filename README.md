@@ -21,7 +21,7 @@ In the second step, we employ the [`PubChemPy`](https://pubchempy.readthedocs.io
 - **Step3. Word Embedding & Caculate similarity**:
 In the third step, we leverage the [`BioGPT-Large`](https://github.com/microsoft/BioGPT) model to provide valuable word embeddings. Then computing similarities to capture semantic relationships within a high-dimensional vector space. By doing so, we can understand and analyze the relationships between different chemical entities in a more nuanced and detailed manner.
 
-- **Step4. Automated chemical entity screening powere by GPT-4**:
+- **Step4. Automated chemical entity screening powered by GPT-4**:
 In the fourth step, we utilize a tool-enhanced [`GPT-4`](https://openai.com/gpt-4) model, which operates on the [`LangChain`](https://python.langchain.com/docs/get_started) framework and incorporates WebSearch tool and PubMedQuery tool. This advanced model allows us to automatically exclude materials with undesired physicochemical properties. By providing feedback on the physical and chemical characteristics of the materials, we can successfully filter out those that do not conform to our desired criteria. This ensures that only the most suitable materials are selected for further analysis and potential use.
 
 ## Getting Started
@@ -60,7 +60,7 @@ Run `Chemical_Entity_IUPAC_Unifying.py` to get IUPAC name and CID.
 ### Step3. Word Embedding & Caculate similarity:
 Run `BioGPT.py` to get word embeddings and similarities.
 
-### Step4. Automated chemical entity screening powere by GPT-4
+### Step4. Automated chemical entity screening powered by GPT-4
 
 
 ---
