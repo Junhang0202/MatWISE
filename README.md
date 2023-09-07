@@ -31,7 +31,7 @@ Note: We recommend deploying the MatWISE framework on a Linux-based system for o
 ## Installation
 To run MatWISE, you can setup a conda environment.
 
-Please note that all of our code has been tested on Linux system and in future versions, we will be adding support for Windows systems.
+Please note that all of our code has been tested on **LINUX** system and in future versions, we will be adding support for Windows systems.
 
 ### Install the requirements
 Create the environment and install dependencies.
@@ -100,6 +100,9 @@ If you encounter any issues, please refer to open an issue on the repository for
 ## Data availability
 
 The results of Named Entity Recognition using the Stanza model can be found at https://github.com/Junhang0202/MatWISE/blob/main/experiment_result/stanza_result_uric_acid.csv. 
+
 The unification results for chemical entities utilizing PubChemPy can be accessed at https://github.com/Junhang0202/MatWISE/blob/main/experiment_result/SimpleChemical_stanza_result_Iupacname.csv. 
+
 The BioGPT model's similarity calculation results are available at https://github.com/Junhang0202/MatWISE/blob/main/experiment_result/BioGPT_CosineSimilarity.csv. 
+
 Additionally, the automated screening of chemical entities powered by GPT-4 has been recorded and can be found at https://github.com/Junhang0202/MatWISE/blob/main/experiment_result/finish_material_screening.csv and https://github.com/Junhang0202/MatWISE/blob/main/experiment_result/finish_material_screening.txt.

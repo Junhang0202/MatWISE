@@ -8,6 +8,7 @@ channels:
   - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free
   - defaults
 dependencies:
+  - pip
   - _libgcc_mutex=0.1=main
   - _openmp_mutex=5.1=1_gnu
   - asttokens=2.2.1=pyhd8ed1ab_0
@@ -166,10 +167,10 @@ dependencies:
     - overrides==7.3.1
     - pandas==2.0.2
     - paper-qa==3.3.1
-    - paper-scraper==0.8.0
     - pillow==10.0.0
     - pip==23.0.1
     - pipeline==0.1.0
+    - pipreqs==0.4.13
     - platformdirs==3.10.0
     - pluggy==1.2.0
     - posthog==3.0.1
@@ -250,6 +251,7 @@ dependencies:
     - widgetsnbextension==4.0.8
     - wsproto==1.2.0
     - xformers==0.0.20
+    - xmltodict==0.13.0
     - xxhash==3.2.0
+    - yarg==0.1.9
     - yarl==1.9.2
-prefix: /home/jkan/.conda/envs/huggingface
